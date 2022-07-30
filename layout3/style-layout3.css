@@ -109,7 +109,16 @@ aside {
 
     .main-content {
         background-color: #C4C4C4;
+        width: 100vw;
     }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
     .main-content h2 {
         display: none;
     }
